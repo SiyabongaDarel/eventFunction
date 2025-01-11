@@ -1,0 +1,13 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "environment": {
+    "HUBSPOT_ACCESS_TOKEN": "{env:HUBSPOT_ACCESS_TOKEN}"
+  },
+  "endpoints": {
+    "add-to-hubdb": {
+      "method": "POST",
+      "file": "index.js"
+    }
+  }
+}
